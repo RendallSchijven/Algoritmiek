@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/bubbleSort.dir/bubbleSort.cpp.o  -o bubbleSort.exe -Wl,--out-implib,libbubbleSort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

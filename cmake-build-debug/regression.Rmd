@@ -1,0 +1,55 @@
+---
+title: "Regression with R"
+output: pdf_document
+---
+
+# Data
+For a certain algorithm the time to calculate the results is measured for different input sizes and recorded in a text file. 
+
+Read this data into R using the read.table function.
+```{r}
+# Read the data
+data = read.csv("quickSort.csv", sep=',', header=FALSE)
+colnames(data) = c("Size","Duration")
+data
+```
+
+# Data analysis: log10 transformation
+Let's see how well the data fits a model after a log10 transform.
+```{r}
+logn = log10(data$Size)
+mlogn = lm(data$Duration ~ logn)
+summary(mlogn)
+```
+
+# Data analysis: square transformation
+Let's see how well the data fits a model after a n^² transform. 
+```{r}
+nsq = data$Size^2
+mnsq = lm(data$Duration ~ nsq)
+summary(mnsq)
+```
+
+# Data analysis: n*log10 transformation
+
+Let's see how well the data fits a model after a n*log10(n) transform.
+```{r}
+nlogn = data$Size * log10(data$Duration)
+mnlogn = lm(data$Duration ~ nlogn)
+summary(mnlogn)
+```
+
+# Visual analysis
+Create graphs for each combination. Plot the regression line.
+```{r}
+plot(logn,data$Duration)
+abline(mlogn)
+plot(nsq,data$Duration)
+abline(mnsq)
+plot(nlogn,data$Duration)
+abline(mnlogn)
+```
+
+# Conclusion
+
+> The R-square (R^²) value indicates the fit. Find the model where R^² is the largest. The closer it is to 1, the better the fit. In this example nsq has the best fit. Therefore we can conclude that the algorithm likely has an order of O(n^2). Altough this is the same as wikipedia says, wikipedia also says that this is the worst case performance for the quicksort algorithm this could be because pivot is always the highest or lowest number in the array but this is very unlikely in our code.
