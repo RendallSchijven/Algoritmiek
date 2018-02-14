@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testing">
-				<Option output="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/testing.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/testing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testing/fast">
-				<Option output="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/testing.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/testing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,15 +73,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="quickSort">
-				<Option output="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/quickSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/quickSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -94,15 +94,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 quickSort"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 quickSort"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="quickSort/fast">
-				<Option output="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/quickSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/quickSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,15 +115,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 quickSort/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 quickSort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bubbleSort">
-				<Option output="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/bubbleSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/bubbleSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -136,15 +136,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bubbleSort/fast">
-				<Option output="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/bubbleSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/bubbleSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -157,23 +157,23 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/bubbleSort.cpp">
+		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/bubbleSort.cpp">
 			<Option target="bubbleSort"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/quickSort.cpp">
+		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/quickSort.cpp">
 			<Option target="quickSort"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/testing.cpp">
+		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/testing.cpp">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/algoritmiek/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
