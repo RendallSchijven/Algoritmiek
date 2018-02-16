@@ -51,4 +51,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/testing.dir/DependInfo.cmake"
   "CMakeFiles/quickSort.dir/DependInfo.cmake"
   "CMakeFiles/bubbleSort.dir/DependInfo.cmake"
+  "CMakeFiles/search.dir/DependInfo.cmake"
   )

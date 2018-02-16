@@ -149,6 +149,19 @@ bubbleSort/fast:
 	$(MAKE) -f CMakeFiles/bubbleSort.dir/build.make CMakeFiles/bubbleSort.dir/build
 .PHONY : bubbleSort/fast
 
+#=============================================================================
+# Target rules for targets named search
+
+# Build rule for target.
+search: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 search
+.PHONY : search
+
+# fast build rule for target.
+search/fast:
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
+.PHONY : search/fast
+
 bubbleSort.o: bubbleSort.cpp.o
 
 .PHONY : bubbleSort.o
@@ -203,6 +216,33 @@ quickSort.cpp.s:
 	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/quickSort.cpp.s
 .PHONY : quickSort.cpp.s
 
+search.o: search.cpp.o
+
+.PHONY : search.o
+
+# target to build an object file
+search.cpp.o:
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/search.cpp.o
+.PHONY : search.cpp.o
+
+search.i: search.cpp.i
+
+.PHONY : search.i
+
+# target to preprocess a source file
+search.cpp.i:
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/search.cpp.i
+.PHONY : search.cpp.i
+
+search.s: search.cpp.s
+
+.PHONY : search.s
+
+# target to generate assembly for a file
+search.cpp.s:
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/search.cpp.s
+.PHONY : search.cpp.s
+
 testing.o: testing.cpp.o
 
 .PHONY : testing.o
@@ -237,16 +277,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... testing"
 	@echo "... quickSort"
 	@echo "... bubbleSort"
+	@echo "... edit_cache"
+	@echo "... search"
 	@echo "... bubbleSort.o"
 	@echo "... bubbleSort.i"
 	@echo "... bubbleSort.s"
 	@echo "... quickSort.o"
 	@echo "... quickSort.i"
 	@echo "... quickSort.s"
+	@echo "... search.o"
+	@echo "... search.i"
+	@echo "... search.s"
 	@echo "... testing.o"
 	@echo "... testing.i"
 	@echo "... testing.s"
