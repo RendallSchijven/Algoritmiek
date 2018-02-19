@@ -3,6 +3,8 @@
 //  arch
 
 #include <queue>
+#include <string>
+#include <iostream>
 #include "search.h"
 
 typename std::vector<Vertex>::const_iterator Graph::cbegin(Vertex v) const
@@ -75,20 +77,21 @@ Path bfs(const Graph &graph, const Vertex &start, std::function<bool(const Verte
         } else {
             last = path.back();
         }
+        if (goalTest(last))
+            return path; // path is a vector of Vertices
 
-        if (visited.find(last) == visited.end()) {
-            visited.insert(last);
-            for (auto it = graph.cbegin(last); it != graph.cend(); it++) { // extend path with new Vertex
-                Path n = path;
-                n.push_back(*it);
-                if (goalTest(n.back()))
-                    return n; // path is a vector of Vertices
-                queue.push(n);
-            }
+        for (auto it = graph.cbegin(last); it != graph.cend(); it++) { // extend path with new Vertex
+            Path n = path;
+            n.push_back(*it);
+            if (visited.find(*it) == visited.end()) {visited.insert(*it);}
+            queue.push(n);
         }
+
     }
     return Path(); // return empty path
 }
+
+
 
 int main() 
 {
