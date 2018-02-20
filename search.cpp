@@ -82,9 +82,11 @@ Path bfs(const Graph &graph, const Vertex &start, std::function<bool(const Verte
 
         for (auto it = graph.cbegin(last); it != graph.cend(); it++) { // extend path with new Vertex
             Path n = path;
-            n.push_back(*it);
-            if (visited.find(*it) == visited.end()) {visited.insert(*it);}
-            queue.push(n);
+            if (visited.find(*it) == visited.end()) {
+                visited.insert(*it);
+                n.push_back(*it);
+                queue.push(n);
+            }
         }
 
     }
