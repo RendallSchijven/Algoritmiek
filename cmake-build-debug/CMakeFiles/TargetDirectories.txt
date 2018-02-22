@@ -1,5 +1,6 @@
 /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles/testing.dir
+/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles/8puzzle.dir
 /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles/quickSort.dir
 /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles/bubbleSort.dir
 /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles/edit_cache.dir

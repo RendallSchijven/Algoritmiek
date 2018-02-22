@@ -124,6 +124,19 @@ testing/fast:
 .PHONY : testing/fast
 
 #=============================================================================
+# Target rules for targets named 8puzzle
+
+# Build rule for target.
+8puzzle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 8puzzle
+.PHONY : 8puzzle
+
+# fast build rule for target.
+8puzzle/fast:
+	$(MAKE) -f CMakeFiles/8puzzle.dir/build.make CMakeFiles/8puzzle.dir/build
+.PHONY : 8puzzle/fast
+
+#=============================================================================
 # Target rules for targets named quickSort
 
 # Build rule for target.
@@ -161,6 +174,33 @@ search: cmake_check_build_system
 search/fast:
 	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
 .PHONY : search/fast
+
+8puzzle.o: 8puzzle.cpp.o
+
+.PHONY : 8puzzle.o
+
+# target to build an object file
+8puzzle.cpp.o:
+	$(MAKE) -f CMakeFiles/8puzzle.dir/build.make CMakeFiles/8puzzle.dir/8puzzle.cpp.o
+.PHONY : 8puzzle.cpp.o
+
+8puzzle.i: 8puzzle.cpp.i
+
+.PHONY : 8puzzle.i
+
+# target to preprocess a source file
+8puzzle.cpp.i:
+	$(MAKE) -f CMakeFiles/8puzzle.dir/build.make CMakeFiles/8puzzle.dir/8puzzle.cpp.i
+.PHONY : 8puzzle.cpp.i
+
+8puzzle.s: 8puzzle.cpp.s
+
+.PHONY : 8puzzle.s
+
+# target to generate assembly for a file
+8puzzle.cpp.s:
+	$(MAKE) -f CMakeFiles/8puzzle.dir/build.make CMakeFiles/8puzzle.dir/8puzzle.cpp.s
+.PHONY : 8puzzle.cpp.s
 
 bubbleSort.o: bubbleSort.cpp.o
 
@@ -278,10 +318,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... testing"
+	@echo "... 8puzzle"
 	@echo "... quickSort"
 	@echo "... bubbleSort"
 	@echo "... edit_cache"
 	@echo "... search"
+	@echo "... 8puzzle.o"
+	@echo "... 8puzzle.i"
+	@echo "... 8puzzle.s"
 	@echo "... bubbleSort.o"
 	@echo "... bubbleSort.i"
 	@echo "... bubbleSort.s"
