@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-d
 CMakeFiles/testing.dir/all:
 	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/depend
 	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target testing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target testing"
 .PHONY : CMakeFiles/testing.dir/all
 
 # Include target in all.
@@ -93,6 +93,43 @@ CMakeFiles/testing.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/testing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pegGame.dir
+
+# All Build rule for target.
+CMakeFiles/pegGame.dir/all:
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/depend
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target pegGame"
+.PHONY : CMakeFiles/pegGame.dir/all
+
+# Include target in all.
+all: CMakeFiles/pegGame.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pegGame.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pegGame.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pegGame.dir/rule
+
+# Convenience name for target.
+pegGame: CMakeFiles/pegGame.dir/rule
+
+.PHONY : pegGame
+
+# clean rule for target.
+CMakeFiles/pegGame.dir/clean:
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/clean
+.PHONY : CMakeFiles/pegGame.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pegGame.dir/clean
 
 .PHONY : clean
 
@@ -140,7 +177,7 @@ clean: CMakeFiles/8puzzle.dir/clean
 CMakeFiles/quickSort.dir/all:
 	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/depend
 	$(MAKE) -f CMakeFiles/quickSort.dir/build.make CMakeFiles/quickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target quickSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target quickSort"
 .PHONY : CMakeFiles/quickSort.dir/all
 
 # Include target in all.
@@ -214,7 +251,7 @@ clean: CMakeFiles/bubbleSort.dir/clean
 CMakeFiles/search.dir/all:
 	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/depend
 	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target search"
 .PHONY : CMakeFiles/search.dir/all
 
 # Include target in all.

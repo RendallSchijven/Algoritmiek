@@ -49,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/testing.dir/DependInfo.cmake"
+  "CMakeFiles/pegGame.dir/DependInfo.cmake"
   "CMakeFiles/8puzzle.dir/DependInfo.cmake"
   "CMakeFiles/quickSort.dir/DependInfo.cmake"
   "CMakeFiles/bubbleSort.dir/DependInfo.cmake"

@@ -124,6 +124,19 @@ testing/fast:
 .PHONY : testing/fast
 
 #=============================================================================
+# Target rules for targets named pegGame
+
+# Build rule for target.
+pegGame: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pegGame
+.PHONY : pegGame
+
+# fast build rule for target.
+pegGame/fast:
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/build
+.PHONY : pegGame/fast
+
+#=============================================================================
 # Target rules for targets named 8puzzle
 
 # Build rule for target.
@@ -229,6 +242,33 @@ bubbleSort.cpp.s:
 	$(MAKE) -f CMakeFiles/bubbleSort.dir/build.make CMakeFiles/bubbleSort.dir/bubbleSort.cpp.s
 .PHONY : bubbleSort.cpp.s
 
+pegGame.o: pegGame.cpp.o
+
+.PHONY : pegGame.o
+
+# target to build an object file
+pegGame.cpp.o:
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/pegGame.cpp.o
+.PHONY : pegGame.cpp.o
+
+pegGame.i: pegGame.cpp.i
+
+.PHONY : pegGame.i
+
+# target to preprocess a source file
+pegGame.cpp.i:
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/pegGame.cpp.i
+.PHONY : pegGame.cpp.i
+
+pegGame.s: pegGame.cpp.s
+
+.PHONY : pegGame.s
+
+# target to generate assembly for a file
+pegGame.cpp.s:
+	$(MAKE) -f CMakeFiles/pegGame.dir/build.make CMakeFiles/pegGame.dir/pegGame.cpp.s
+.PHONY : pegGame.cpp.s
+
 quickSort.o: quickSort.cpp.o
 
 .PHONY : quickSort.o
@@ -318,6 +358,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... testing"
+	@echo "... pegGame"
 	@echo "... 8puzzle"
 	@echo "... quickSort"
 	@echo "... bubbleSort"
@@ -329,6 +370,9 @@ help:
 	@echo "... bubbleSort.o"
 	@echo "... bubbleSort.i"
 	@echo "... bubbleSort.s"
+	@echo "... pegGame.o"
+	@echo "... pegGame.i"
+	@echo "... pegGame.s"
 	@echo "... quickSort.o"
 	@echo "... quickSort.i"
 	@echo "... quickSort.s"

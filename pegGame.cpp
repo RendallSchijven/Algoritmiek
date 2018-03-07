@@ -1,11 +1,10 @@
-// 8puzzle.cpp
-// Compile with: g++ 8puzzle.cpp -o 8puzzle
+// pegGame.cpp
 
 #include <queue>
 #include <string>
 #include <algorithm>
 #include <iostream>
-#include "8puzzle.h"
+#include "pegGame.h"
 
 typename std::vector<Vertex>::const_iterator Graph::cbegin(Vertex v) const
 {
@@ -14,7 +13,7 @@ typename std::vector<Vertex>::const_iterator Graph::cbegin(Vertex v) const
     for (int r=0; r<3; r++) {
         for (int c=0; c<3; c++) {
             if (v[r][c] == 0) {
-                if (c<2) adjacents.push_back(doMove(v,Move::l)); 
+                if (c<2) adjacents.push_back(doMove(v,Move::l));
                 if (c>0) adjacents.push_back(doMove(v,Move::r));
                 if (r<2) adjacents.push_back(doMove(v,Move::u));
                 if (r>0) adjacents.push_back(doMove(v,Move::d));
@@ -54,7 +53,7 @@ std::ostream &operator<<(std::ostream &os, const Vertex &state)
     for (int r=0; r<3; r++) {
         for (int c=0; c<3; c++) {
             if (state[r][c] != 0) {
-		os << state[r][c];
+                os << state[r][c];
             } else {
                 os << " ";
             }
@@ -69,21 +68,21 @@ Path dfs(const Graph &graph, const Vertex &start, std::function<bool(const Verte
     std::stack<Path> queue;
     std::set<Vertex> visited;
     Path path;
-    
+
     queue.push(path);
     while (!queue.empty()) {
         path = queue.top();
         queue.pop();
-        
+
         Vertex last;
         if (path.size() == 0) {
             last = start;
         } else {
             last = path.back();
         }
-        if (goalTest(last)) 
+        if (goalTest(last))
             return path; // path is a vector of Vertices
-        
+
         if (visited.find(last) == visited.end()) {
             visited.insert(last);
             for (auto it = graph.cbegin(last); it != graph.cend(); it++) { // extend path with new Vertex
@@ -129,21 +128,21 @@ Path bfs(const Graph &graph, const Vertex &start, std::function<bool(const Verte
     return Path(); // return empty path
 }
 
-int main() 
+int main()
 {
     Graph graph;
 
     Vertex start = {{
-        {{1,2,3}},
-        {{7,0,4}},
-        {{8,6,5}}
-    }};
+                            {{1,2,3}},
+                            {{7,0,4}},
+                            {{8,6,5}}
+                    }};
 
     Vertex goal = {{
-        {{1,2,3}},
-        {{4,5,6}},
-        {{7,8,0}}
-    }};
+                           {{1,2,3}},
+                           {{4,5,6}},
+                           {{7,8,0}}
+                   }};
 
     Path path = bfs(graph, start, [&](Vertex v) { return (v == goal); });
 
