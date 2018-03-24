@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/ttt.cpp
+ttt.h
+/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/ttt.h
+
+/cygdrive/c/Users/renda/Desktop/Git/Algoritmiek/ttt.h
+tuple
+-
+array
+-
+vector
+-
+ctime
+-
+random
+-
+iterator
+-
+iostream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/ttt.dir/ttt.cpp.o  -o ttt.exe -Wl,--out-implib,libttt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

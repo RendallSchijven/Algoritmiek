@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/tttMc.dir/ttt_mc.cpp.o  -o tttMc.exe -Wl,--out-implib,libtttMc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
